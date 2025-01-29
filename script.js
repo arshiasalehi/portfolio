@@ -42,3 +42,16 @@ navbarToggle.addEventListener("click", function () {
 function closeResolution() {
   document.querySelector('.resolution').style.display = 'none';
 }
+
+document.querySelectorAll('#projects .project-box').forEach(box => {
+  box.addEventListener('click', function() {
+    const overlay = this.querySelector('.overlay');
+    if (overlay) {
+      if (overlay.style.opacity === '1') {
+        overlay.style.opacity = '0';
+      } else {
+        overlay.style.opacity = '1';
+      }
+    }
+  });
+});

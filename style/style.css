@@ -548,7 +548,27 @@ header .logo a {
   #projects .project-box {
     width: 80%; /* Adjust the width of the project boxes */
   }
-  
+  #education {
+    padding: 3rem 1rem; /* Adjust padding for smaller screens */
+  }
+
+  #education .row {
+    flex-direction: column; /* Stack columns on top of each other */
+    align-items: center; /* Center the columns */
+  }
+
+  #education .col {
+    width: 100%; /* Make columns full width on smaller screens */
+    
+  }
+
+  #education .edu-title h1 {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+  }
+
+  #education .edu-title p {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
 
 }
 
