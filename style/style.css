@@ -547,6 +547,7 @@ header .logo a {
 
   #projects .project-box {
     width: 80%; /* Adjust the width of the project boxes */
+    min-height: 200px; /* Allow the project boxes to take up the available space */;
   }
   #education {
     padding: 3rem 1rem; /* Adjust padding for smaller screens */
