@@ -804,6 +804,7 @@ header .logo a {
   #contact .row {
     flex-direction: column; /* Stack columns on top of each other */
     align-items: center; /* Center the columns */
+    width: 100%;
   }
 
   #contact .col {
@@ -811,7 +812,7 @@ header .logo a {
   }
   #contact .col.left img {
     width: 100%;
-    height: auto;
+    height: 100%;
   }
   #contact .col.right {
     width: 100%;
